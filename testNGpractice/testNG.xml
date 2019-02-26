@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Practice">
+
+	<test name="TestNG Practice Test">
+
+		<classes>
+
+			<class name="testNGpractice.TestNGPractice1" />
+			<class name="testNGpractice.TestNGPractice2" />
+			<class name="testNGpractice.TestNGPractice3" />
+			<class name="testNGpractice.InvocationCount" />
+			<class name="testNGpractice.InvocationTimeOut" />
+			<class name="testNGpractice.AssertionsTest" />
+		</classes>
+	</test>
+</suite>

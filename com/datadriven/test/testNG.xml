@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Parameters Test">
+
+	<test name="Yahoo Account Test">
+	<!--<parameter name ="url" value="https://login.yahoo.com/"/>
+	<parameter name ="firstname" value="Abhinas"/>
+	<parameter name ="lastname" value="Sahoo"/>
+	<parameter name ="email" value= "abhinas.sphinx"/>
+	<parameter name ="password" value="Silu@002!!"/>
+	<parameter name ="mobilenumber" value="4692315501"/>
+	<parameter name ="month" value="May"/>
+	<parameter name ="day" value="14"/>
+	<parameter name ="year" value="1987"/>
+	<parameter name ="gender" value="Male"/>-->
+	
+
+		<classes>
+
+			<class name="com.datadriven.test.ParameterTest" />
+
+		</classes>
+	</test>
+</suite>
